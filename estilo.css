@@ -1,0 +1,163 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./img/pexels-frank-cone-4903174.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+main {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4.5em;
+}
+h2 {
+  color: beige;
+}
+
+#container-logo {
+  display: flex;
+  flex-direction: column;
+}
+#logo {
+  background-color: rgb(94, 60, 107);
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logo h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 60px;
+  color: rgb(209, 182, 216);
+}
+#navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(23, 2, 29);
+  padding: 0 auto;
+  margin-bottom: 3em;
+}
+
+#barra {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+#barra li {
+  padding: 12px 48px;
+}
+.a-nav {
+  text-decoration: none;
+  color: #fdfdfd;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.lista {
+  list-style: none;
+}
+h2,
+h3,
+a,
+h4,
+article {
+  color: beige;
+}
+h2 {
+  font-size: 35px;
+}
+h4 {
+  font-size: 22px;
+}
+.chuva {
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+}
+#texto {
+  justify-content: center;
+  font-size: 18px;
+  align-items: center;
+  margin-bottom: 103px;
+  width: 550px;
+  padding: 15px;
+}
+#video {
+  margin-left: 10px;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.planetas {
+  width: 250px;
+  height: 300px;
+}
+.planetas img {
+  width: 100%;
+  height: 100%;
+  margin: 1em;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  font-style: none;
+}
+
+footer {
+  height: 5vh;
+  background-color: rgb(94, 60, 107);
+  margin-top: 10em;
+}
+
+@media only screen and (max-width: 1024px) {
+  header {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  main {
+    flex-direction: column;
+  }
+  footer {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 3em;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  ul {
+    flex-direction: column;
+  }
+  iframe {
+    width: 100%;
+  }
+  #texto {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  footer {
+    flex-direction: column;
+  }
+}
